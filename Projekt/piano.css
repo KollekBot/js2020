@@ -1,36 +1,49 @@
 body {background-color: black ;}
-
+.note{
+    width: 7.14%;
+    box-sizing:border-box;
+    display: block;
+    float: left;
+    margin: 0;
+  }
+  .wrapper{
+    display: inline-block;
+    position: relative;
+    width:70%;
+  }
+  .Cs_note{
+    position: absolute;
+    top: 0;
+    left: 6.14%;
+    margin:0;
+  }
 .C_note{
 
     color:black;
-    margin-top: 100px;
+
     padding-top:258px;
     padding-bottom:20px;
     padding-right:5px;
     padding-left:5px;
-    overflow: hidden;
-    z-index: 50;
+    z-index: 51;
     background-color: white;
     cursor: pointer;
     left: 366px;
     top: 143px;
     width: 5%;
-
 }
 .Cs_note{
 
     color:white;
-    margin-top: 100px;
-    padding-top:180px;
-    padding-bottom:20px;
+    overflow: visible;
+    padding-bottom:0px;
     padding-right:4px;
     padding-left:4px;
-    z-index: 52;
+    z-index: 53;
     background-color: black;
     cursor: pointer;
-    left: 362px;
-    top: 143px;
-    width: 2%;
+    bottom: 0px;
+    width: 3%;
 
 }
 
