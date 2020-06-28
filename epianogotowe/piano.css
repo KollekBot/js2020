@@ -1,0 +1,211 @@
+body {background-color: black ;}
+.note{
+  width: 7.14%;
+  box-sizing:border-box;
+  display: block;
+  float: left;
+  margin: 0;
+  color:black;
+  padding-top:258px;
+  padding-bottom:20px;
+  padding-right:5px;
+  padding-left:5px;
+  z-index: 51;
+  background-color: white;
+  cursor: pointer;
+  
+}
+.note:hover {background-color: gray}
+.header{
+    padding-top:20px;
+  
+    color:white;
+    text-align: center;
+}
+.note:active:after {
+background-color: gray
+}
+
+.note:after {
+    background-color: gray;
+    transition:2;
+    }
+
+    .note:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);}
+.wrapper{
+    top: 150px;
+  display: inline-block;
+  position: relative;
+  width:70%;
+}
+
+
+
+.cs_note{
+    position: absolute;
+    top: 0;
+    left: 5.54%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+
+.ds_note{
+    position: absolute;
+    top: 0;
+    left: 12.64%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+
+.fs_note{
+    position: absolute;
+    top: 0;
+    left: 26.8%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+.gs_note{
+    position: absolute;
+    top: 0;
+    left: 34.0%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+.as_note{
+    position: absolute;
+    top: 0;
+    left: 41.2%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+.cs1_note{
+    position: absolute;
+    top: 0;
+    left: 55.4%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+.ds1_note{
+    position: absolute;
+    top: 0;
+    left: 62.6%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+.fs1_note{
+    position: absolute;
+    top: 0;
+    left: 76.9%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+.gs1_note{
+    position: absolute;
+    top: 0;
+    left: 83.9%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+.as1_note{
+    position: absolute;
+    top: 0;
+    left: 91.1%;
+    margin:0;
+  color:white;
+  overflow: visible;
+  padding-bottom:0px;
+  padding-right:4px;
+  padding-left:4px;
+  z-index: 53;
+  background-color: black;
+  cursor: pointer;
+  height: 150px;
+  width: 3%;
+}
+.center {
+  text-align: center;
+}
